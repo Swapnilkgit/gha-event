@@ -5,9 +5,7 @@ on:
       - opened
   push:
     branches:
-      - master
-      #- dev*
-    
+      - master  
 jobs:
   deploy:
     runs-on: ubuntu-latest
